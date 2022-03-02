@@ -3,7 +3,7 @@ import { setFilter } from '../filter/actionCreators';
 import { FilterState } from '../filter/state';
 import { useAppDispatch, useAppSelector } from '../store';
 
-export const Filter: React.FC = () => {
+export const FilterSelector: React.FC = () => {
   const dispatch = useAppDispatch();
   const currentFilter = useAppSelector(state => state.filter);
 
